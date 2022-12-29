@@ -9,8 +9,10 @@ h2 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: hsl(0, 0%, 95%);
+  margin-top: 26px;
+  margin-bottom: 24px;
 }
 
 p {
@@ -18,7 +20,8 @@ p {
   font-weight: 400;
   font-size: 0.938rem;
   color: hsla(0, 0%, 100%, 0.75);
-  line-height: 1.5em;
+  line-height: 1.6em;
+  margin-bottom: 24px;
 }
 
 body {
@@ -38,11 +41,12 @@ body {
 .sedans,
 .suvs,
 .luxury {
-  padding: 2em;
+  padding: 45px;
 }
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 6px 6px 0 0;
 }
 
 .suvs {
@@ -51,13 +55,14 @@ body {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 6px 6px;
 }
 
 button {
-  padding: 0.5em 1.5em;
+  padding: 0.8em 2em;
   background-color: hsl(0, 0%, 95%);
   border: none;
-  border-radius: 1em;
+  border-radius: 20px;
   font-size: 0.938rem;
   font-weight: 400;
   font-family: "Lexend Deca", sans-serif;
